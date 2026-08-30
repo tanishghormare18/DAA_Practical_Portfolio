@@ -1,0 +1,1781 @@
+/* ================================
+   RESET
+================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0b1020;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+
+/* ================================
+   NAVBAR
+================================ */
+
+.navbar {
+    height: 75px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 8%;
+
+    background: #0b1020;
+
+    border-bottom: 1px solid #252b40;
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+
+.logo span {
+    color: #7c5cff;
+}
+
+
+.navbar nav {
+    display: flex;
+    gap: 35px;
+}
+
+
+.navbar nav a {
+    color: #b7bdd1;
+    text-decoration: none;
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+
+.navbar nav a:hover,
+.navbar nav a.active {
+    color: #ffffff;
+}
+
+
+/* ================================
+   HERO
+================================ */
+
+.hero {
+    min-height: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 80px 20px;
+
+    background:
+        radial-gradient(
+            circle at top,
+            #20295a,
+            #0b1020 60%
+        );
+}
+
+
+.hero-content {
+    max-width: 850px;
+}
+
+
+.tag {
+    color: #8e7cff;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 20px;
+}
+
+
+.hero h1 {
+    font-size: clamp(45px, 7vw, 80px);
+
+    line-height: 1.1;
+
+    margin-bottom: 25px;
+}
+
+
+.hero h1 span {
+    display: block;
+
+    background: linear-gradient(
+        90deg,
+        #8e7cff,
+        #c27cff
+    );
+
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+
+.description {
+    max-width: 650px;
+
+    margin: auto;
+
+    color: #aeb5ca;
+
+    font-size: 18px;
+}
+
+
+/* ================================
+   BUTTONS
+================================ */
+
+.hero-buttons {
+    margin-top: 35px;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    flex-wrap: wrap;
+}
+
+
+.btn {
+    padding: 13px 25px;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+
+    font-weight: 700;
+
+    transition: 0.3s;
+}
+
+
+.btn.primary {
+    background: #7c5cff;
+
+    color: white;
+}
+
+
+.btn.primary:hover {
+    transform: translateY(-3px);
+
+    background: #6948f0;
+}
+
+
+.btn.secondary {
+    border: 1px solid #414861;
+
+    color: white;
+}
+
+
+.btn.secondary:hover {
+    background: #1b2136;
+}
+
+
+/* ================================
+   INFORMATION
+================================ */
+
+.info-section,
+.quick-section {
+    padding: 80px 8%;
+}
+
+
+.info-section h2,
+.quick-section h2 {
+    text-align: center;
+
+    font-size: 32px;
+
+    margin-bottom: 40px;
+}
+
+
+.info-grid {
+    max-width: 1100px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 20px;
+}
+
+
+.info-card {
+    padding: 25px;
+
+    background: #12182b;
+
+    border: 1px solid #272e46;
+
+    border-radius: 12px;
+
+    transition: 0.3s;
+}
+
+
+.info-card:hover {
+    transform: translateY(-5px);
+
+    border-color: #7c5cff;
+}
+
+
+.info-card span {
+    color: #858da5;
+
+    font-size: 13px;
+
+    text-transform: uppercase;
+}
+
+
+.info-card h3 {
+    margin-top: 8px;
+
+    font-size: 17px;
+}
+
+
+/* ================================
+   FACULTY
+================================ */
+
+.faculty-section {
+    padding: 30px 8% 80px;
+}
+
+
+.faculty-card {
+    max-width: 900px;
+
+    margin: auto;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #151d36,
+            #101528
+        );
+
+    border: 1px solid #2b3450;
+}
+
+
+.faculty-icon {
+    width: 70px;
+    height: 70px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background: #242c4b;
+
+    border-radius: 50%;
+
+    font-size: 30px;
+}
+
+
+.faculty-card p {
+    color: #8e7cff;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+
+.faculty-card h2 {
+    margin: 4px 0;
+}
+
+
+.faculty-card span {
+    color: #8e96ad;
+}
+
+
+/* ================================
+   QUICK CARDS
+================================ */
+
+.quick-grid {
+    max-width: 1100px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+
+.quick-card {
+    padding: 35px;
+
+    background: #12182b;
+
+    border: 1px solid #272e46;
+
+    border-radius: 15px;
+
+    text-decoration: none;
+
+    color: white;
+
+    transition: 0.3s;
+}
+
+
+.quick-card:hover {
+    transform: translateY(-7px);
+
+    border-color: #7c5cff;
+}
+
+
+.quick-icon {
+    font-size: 35px;
+
+    margin-bottom: 15px;
+}
+
+
+.quick-card h3 {
+    margin-bottom: 10px;
+}
+
+
+.quick-card p {
+    color: #929ab1;
+}
+
+
+/* ================================
+   FOOTER
+================================ */
+
+footer {
+    padding: 35px 20px;
+
+    text-align: center;
+
+    border-top: 1px solid #252b40;
+
+    color: #777f98;
+
+    font-size: 14px;
+}
+
+
+footer strong {
+    color: #a9b0c5;
+}
+
+
+/* ================================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 900px) {
+
+    .info-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .quick-grid {
+        grid-template-columns:
+            1fr;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .navbar {
+        padding: 0 5%;
+    }
+
+    .navbar nav {
+        gap: 15px;
+    }
+
+    .navbar nav a {
+        font-size: 14px;
+    }
+
+    .info-grid {
+        grid-template-columns:
+            1fr;
+    }
+
+    .faculty-card {
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+}
+
+/* ================================
+   PAGE HEADER
+================================ */
+
+.page-header {
+
+    text-align: center;
+
+    padding: 90px 20px 60px;
+
+    background:
+        radial-gradient(
+            circle at top,
+            #20295a,
+            #0b1020 65%
+        );
+}
+
+
+.page-header h1 {
+
+    font-size: clamp(45px, 7vw, 70px);
+
+    margin-bottom: 20px;
+}
+
+
+.page-header h1 span {
+
+    background: linear-gradient(
+        90deg,
+        #8e7cff,
+        #c27cff
+    );
+
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+
+.page-header p:not(.tag) {
+
+    max-width: 650px;
+
+    margin: auto;
+
+    color: #9ea6bd;
+
+    font-size: 17px;
+}
+
+
+
+/* ================================
+   PROGRESS SECTION
+================================ */
+
+.progress-section {
+
+    padding: 30px 8% 50px;
+}
+
+
+.progress-card {
+
+    max-width: 1000px;
+
+    margin: auto;
+
+    padding: 30px;
+
+    background: #12182b;
+
+    border: 1px solid #272e46;
+
+    border-radius: 15px;
+}
+
+
+.small-title {
+
+    color: #8e7cff;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+
+.progress-card h2 {
+
+    margin-top: 8px;
+
+    font-size: 28px;
+}
+
+
+.progress-bar {
+
+    width: 100%;
+
+    height: 10px;
+
+    background: #252c42;
+
+    border-radius: 20px;
+
+    margin-top: 20px;
+
+    overflow: hidden;
+}
+
+
+#progress-fill {
+
+    width: 0%;
+
+    height: 100%;
+
+    background: linear-gradient(
+        90deg,
+        #7c5cff,
+        #c27cff
+    );
+
+    border-radius: 20px;
+
+    transition: width 0.5s ease;
+}
+
+
+#progress-text {
+
+    margin-top: 12px;
+
+    color: #858da5;
+
+    font-size: 14px;
+}
+
+
+
+/* ================================
+   PRACTICAL CONTAINER
+================================ */
+
+.practical-container {
+
+    max-width: 1100px;
+
+    margin: auto;
+
+    padding: 20px 8% 80px;
+}
+
+
+#practical-list {
+
+    display: grid;
+
+    gap: 20px;
+}
+
+
+
+/* ================================
+   PRACTICAL CARD
+================================ */
+
+.practical-card {
+
+    padding: 28px;
+
+    background: #12182b;
+
+    border: 1px solid #272e46;
+
+    border-radius: 15px;
+
+    transition: 0.3s;
+}
+
+
+.practical-card:hover {
+
+    transform: translateY(-4px);
+
+    border-color: #7c5cff;
+}
+
+
+
+/* Practical number */
+
+.practical-number {
+
+    display: inline-block;
+
+    padding: 5px 12px;
+
+    background: #242b49;
+
+    color: #9b8cff;
+
+    border-radius: 20px;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    margin-bottom: 12px;
+}
+
+
+.practical-card h2 {
+
+    font-size: 22px;
+
+    margin-bottom: 10px;
+}
+
+
+.problem-statement {
+
+    color: #aeb5ca;
+
+    margin-bottom: 15px;
+
+    font-size: 15px;
+}
+
+
+.algorithm {
+
+    display: inline-block;
+
+    padding: 7px 12px;
+
+    background: #1b2136;
+
+    border: 1px solid #303853;
+
+    border-radius: 6px;
+
+    color: #c5c9d8;
+
+    font-size: 13px;
+}
+
+
+
+/* ================================
+   STATUS
+================================ */
+
+.status {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    margin-top: 20px;
+
+    font-size: 13px;
+
+    font-weight: 600;
+}
+
+
+.status.completed {
+
+    color: #7ee2a8;
+}
+
+
+.status.pending {
+
+    color: #8d95ab;
+}
+
+
+
+/* ================================
+   PDF BUTTONS
+================================ */
+
+.pdf-buttons {
+
+    display: flex;
+
+    gap: 10px;
+
+    flex-wrap: wrap;
+
+    margin-top: 20px;
+}
+
+
+.pdf-btn {
+
+    display: inline-block;
+
+    padding: 10px 15px;
+
+    border-radius: 7px;
+
+    text-decoration: none;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    transition: 0.3s;
+}
+
+
+.practical-pdf {
+
+    background: #7c5cff;
+
+    color: white;
+}
+
+
+.codetantra-pdf {
+
+    background: #252d48;
+
+    color: white;
+
+    border: 1px solid #39425f;
+}
+
+
+.pdf-btn:hover {
+
+    transform: translateY(-2px);
+}
+
+
+
+/* ================================
+   COMING SOON
+================================ */
+
+.coming-soon {
+
+    margin-top: 20px;
+
+    padding: 12px 15px;
+
+    background: #181e31;
+
+    border-radius: 8px;
+
+    color: #858da5;
+
+    font-size: 13px;
+}
+
+
+
+/* ================================
+   RESPONSIVE PRACTICALS
+================================ */
+
+@media (max-width: 600px) {
+
+    .page-header {
+
+        padding-top: 60px;
+
+    }
+
+
+    .practical-container {
+
+        padding-left: 5%;
+
+        padding-right: 5%;
+
+    }
+
+
+    .progress-section {
+
+        padding-left: 5%;
+
+        padding-right: 5%;
+
+    }
+
+
+    .practical-card {
+
+        padding: 22px;
+
+    }
+
+
+    .pdf-buttons {
+
+        flex-direction: column;
+
+    }
+
+
+    .pdf-btn {
+
+        text-align: center;
+
+    }
+
+}
+
+/* ========================================
+   SYLLABUS PAGE
+======================================== */
+
+
+/* Section */
+
+.syllabus-section {
+
+    max-width: 1150px;
+
+    margin: auto;
+
+    padding: 70px 8%;
+
+}
+
+
+/* Section heading */
+
+.section-heading {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    margin-bottom: 35px;
+
+}
+
+
+.section-heading span {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 42px;
+
+    height: 42px;
+
+    border-radius: 10px;
+
+    background: #7c5cff;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+}
+
+
+.section-heading h2 {
+
+    font-size: 32px;
+
+}
+
+
+
+/* ========================================
+   COURSE INFORMATION
+======================================== */
+
+.course-info-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 18px;
+
+}
+
+
+.course-info-card {
+
+    padding: 25px;
+
+    background: #12182b;
+
+    border: 1px solid #272e46;
+
+    border-radius: 12px;
+
+    transition: 0.3s;
+
+}
+
+
+.course-info-card:hover {
+
+    transform: translateY(-4px);
+
+    border-color: #7c5cff;
+
+}
+
+
+.course-info-card span {
+
+    color: #858da5;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 1.5px;
+
+}
+
+
+.course-info-card h3 {
+
+    margin-top: 8px;
+
+    font-size: 17px;
+
+}
+
+
+
+/* ========================================
+   OBJECTIVE
+======================================== */
+
+.objective-section {
+
+    padding: 20px 8% 60px;
+
+}
+
+
+.objective-card {
+
+    max-width: 1150px;
+
+    margin: auto;
+
+    padding: 35px;
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 25px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #151d36,
+            #101528
+        );
+
+    border: 1px solid #2b3450;
+
+    border-radius: 15px;
+
+}
+
+
+.objective-icon {
+
+    min-width: 60px;
+
+    height: 60px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #242c4b;
+
+    border-radius: 12px;
+
+    font-size: 28px;
+
+}
+
+
+.section-label {
+
+    display: block;
+
+    color: #8e7cff;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 8px;
+
+}
+
+
+.objective-card p {
+
+    color: #aeb5ca;
+
+    font-size: 15px;
+
+}
+
+
+
+/* ========================================
+   UNIT CARDS
+======================================== */
+
+.units-container {
+
+    display: grid;
+
+    gap: 20px;
+
+}
+
+
+.unit-card {
+
+    display: flex;
+
+    gap: 25px;
+
+    padding: 30px;
+
+    background: #12182b;
+
+    border: 1px solid #272e46;
+
+    border-radius: 15px;
+
+    transition: 0.3s;
+
+}
+
+
+.unit-card:hover {
+
+    transform: translateY(-3px);
+
+    border-color: #7c5cff;
+
+}
+
+
+.unit-number {
+
+    min-width: 55px;
+
+    height: 55px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #242b49;
+
+    color: #9b8cff;
+
+    border-radius: 12px;
+
+    font-size: 20px;
+
+    font-weight: 800;
+
+}
+
+
+.unit-content {
+
+    flex: 1;
+
+}
+
+
+.unit-label {
+
+    color: #8e7cff;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+}
+
+
+.unit-content h3 {
+
+    margin: 5px 0 10px;
+
+    font-size: 24px;
+
+}
+
+
+.unit-content p {
+
+    color: #969fb7;
+
+    margin-bottom: 18px;
+
+    font-size: 14px;
+
+}
+
+
+.topics {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+}
+
+
+.topics span {
+
+    padding: 7px 11px;
+
+    background: #1b2136;
+
+    border: 1px solid #303853;
+
+    border-radius: 6px;
+
+    color: #b9bfd0;
+
+    font-size: 12px;
+
+}
+
+
+
+/* ========================================
+   PRACTICAL SYLLABUS
+======================================== */
+
+.practical-syllabus-section {
+
+    padding: 20px 8% 70px;
+
+}
+
+
+.practical-syllabus-card {
+
+    max-width: 1150px;
+
+    margin: auto;
+
+    padding: 35px;
+
+    display: flex;
+
+    gap: 25px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #191d3a,
+            #12182b
+        );
+
+    border: 1px solid #30375a;
+
+    border-radius: 15px;
+
+}
+
+
+.practical-syllabus-icon {
+
+    min-width: 65px;
+
+    height: 65px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #282d50;
+
+    border-radius: 12px;
+
+    font-size: 30px;
+
+}
+
+
+.practical-syllabus-card h2 {
+
+    margin-bottom: 15px;
+
+}
+
+
+.practical-syllabus-card p {
+
+    color: #aeb5ca;
+
+    margin: 6px 0;
+
+    font-size: 14px;
+
+}
+
+
+.practical-note {
+
+    margin-top: 18px !important;
+
+    color: #8e96ad !important;
+
+}
+
+
+.syllabus-button {
+
+    display: inline-block;
+
+    margin-top: 20px;
+
+    padding: 11px 18px;
+
+    background: #7c5cff;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 7px;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    transition: 0.3s;
+
+}
+
+
+.syllabus-button:hover {
+
+    transform: translateY(-2px);
+
+    background: #6948f0;
+
+}
+
+
+
+/* ========================================
+   COURSE OUTCOMES
+======================================== */
+
+.outcomes-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 18px;
+
+}
+
+
+.outcome-card {
+
+    padding: 25px;
+
+    background: #12182b;
+
+    border: 1px solid #272e46;
+
+    border-radius: 12px;
+
+}
+
+
+.outcome-card > span {
+
+    display: inline-block;
+
+    color: #9b8cff;
+
+    font-weight: 800;
+
+    font-size: 13px;
+
+    margin-bottom: 12px;
+
+}
+
+
+.outcome-card h3 {
+
+    margin-bottom: 10px;
+
+}
+
+
+.outcome-card p {
+
+    color: #929ab1;
+
+    font-size: 13px;
+
+}
+
+
+
+/* ========================================
+   RESPONSIVE SYLLABUS
+======================================== */
+
+@media (max-width: 900px) {
+
+    .course-info-grid {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+
+    }
+
+
+    .outcomes-grid {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .syllabus-section {
+
+        padding-left: 5%;
+
+        padding-right: 5%;
+
+    }
+
+
+    .course-info-grid {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    .outcomes-grid {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    .unit-card {
+
+        flex-direction: column;
+
+    }
+
+
+    .unit-number {
+
+        min-width: 50px;
+
+        width: 50px;
+
+    }
+
+
+    .objective-card {
+
+        flex-direction: column;
+
+    }
+
+
+    .practical-syllabus-card {
+
+        flex-direction: column;
+
+    }
+
+}
+
+/* ========================================
+   HOME PAGE PROFILE
+======================================== */
+
+.profile-section {
+
+    padding: 30px 8% 10px;
+
+}
+
+
+.profile-card {
+
+    max-width: 900px;
+
+    margin: auto;
+
+    padding: 28px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+    background: #12182b;
+
+    border: 1px solid #272e46;
+
+    border-radius: 15px;
+
+}
+
+
+.profile-avatar {
+
+    width: 75px;
+
+    height: 75px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background:
+        linear-gradient(
+            135deg,
+            #7c5cff,
+            #c27cff
+        );
+
+    font-size: 23px;
+
+    font-weight: 800;
+
+}
+
+
+.profile-details h2 {
+
+    margin-bottom: 3px;
+
+}
+
+
+.profile-details p {
+
+    color: #858da5;
+
+    font-size: 14px;
+
+}
+
+
+
+/* ========================================
+   HOME PROGRESS
+======================================== */
+
+.home-progress-section {
+
+    padding: 30px 8% 50px;
+
+}
+
+
+.home-progress-card {
+
+    max-width: 900px;
+
+    margin: auto;
+
+    padding: 30px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #151d36,
+            #101528
+        );
+
+    border: 1px solid #2b3450;
+
+    border-radius: 15px;
+
+}
+
+
+.progress-header {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 20px;
+
+}
+
+
+.progress-header h2 {
+
+    margin-top: 3px;
+
+}
+
+
+.progress-percentage {
+
+    font-size: 28px;
+
+    font-weight: 800;
+
+    color: #9b8cff;
+
+}
+
+
+.home-progress-bar {
+
+    width: 100%;
+
+    height: 11px;
+
+    margin-top: 25px;
+
+    background: #252c42;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+}
+
+
+#home-progress-fill {
+
+    width: 0%;
+
+    height: 100%;
+
+    background:
+        linear-gradient(
+            90deg,
+            #7c5cff,
+            #c27cff
+        );
+
+    border-radius: 20px;
+
+    transition: width 0.5s ease;
+
+}
+
+
+.progress-stats {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    margin-top: 25px;
+
+}
+
+
+.progress-stats div {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 3px;
+
+}
+
+
+.progress-stats strong {
+
+    font-size: 25px;
+
+}
+
+
+.progress-stats span {
+
+    color: #858da5;
+
+    font-size: 12px;
+
+}
+
+
+
+/* ========================================
+   QUICK CARD ADDITION
+======================================== */
+
+.quick-card strong {
+
+    display: inline-block;
+
+    margin-top: 20px;
+
+    color: #9b8cff;
+
+    font-size: 13px;
+
+}
+
+
+
+/* ========================================
+   HOME RESPONSIVE
+======================================== */
+
+@media (max-width: 600px) {
+
+    .profile-card {
+
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+
+
+    .progress-header {
+
+        align-items: flex-start;
+
+        flex-direction: column;
+
+    }
+
+
+    .progress-stats {
+
+        grid-template-columns: 1fr;
+
+        gap: 18px;
+
+    }
+
+}

@@ -1,0 +1,133 @@
+[
+    {
+        "id": "pre-lab",
+        "number": "Pre-Lab",
+        "title": "Prime Number Generation Complexity",
+        "problemStatement": "Analyze time & space complexity of prime number generation up to n.",
+        "algorithm": "Complexity Analysis",
+        "available": false,
+        "practicalPdf": "",
+        "codetantraPdf": ""
+    },
+
+    {
+        "id": "practical-01",
+        "number": "Practical 1",
+        "title": "Massive Server Log Sorting",
+        "problemStatement": "Sort massive server logs chronologically using timestamps.",
+        "algorithm": "Quick Sort",
+        "available": false,
+        "practicalPdf": "",
+        "codetantraPdf": ""
+    },
+
+    {
+        "id": "practical-02",
+        "number": "Practical 2",
+        "title": "Manuscript Archive ID Search",
+        "problemStatement": "Locate the first occurrence of a manuscript Archive ID efficiently.",
+        "algorithm": "Binary Search",
+        "available": false,
+        "practicalPdf": "",
+        "codetantraPdf": ""
+    },
+
+    {
+        "id": "practical-03",
+        "number": "Practical 3",
+        "title": "Spacecraft Trajectory Optimization",
+        "problemStatement": "Optimize spacecraft trajectory with matrix multiplication.",
+        "algorithm": "Strassen’s Algorithm",
+        "available": false,
+        "practicalPdf": "",
+        "codetantraPdf": ""
+    },
+
+    {
+        "id": "practical-04",
+        "number": "Practical 4",
+        "title": "Fiber Internet Network Installation",
+        "problemStatement": "Minimize fiber internet network installation cost.",
+        "algorithm": "Kruskal’s MST",
+        "available": false,
+        "practicalPdf": "",
+        "codetantraPdf": ""
+    },
+
+    {
+        "id": "practical-05",
+        "number": "Practical 5",
+        "title": "Ambulance Route Optimization",
+        "problemStatement": "Develop real-time ambulance routing in Mumbai.",
+        "algorithm": "Dijkstra’s Algorithm",
+        "available": false,
+        "practicalPdf": "",
+        "codetantraPdf": ""
+    },
+
+    {
+        "id": "practical-06",
+        "number": "Practical 6",
+        "title": "Drone Delivery Route Optimization",
+        "problemStatement": "Optimize drone delivery routes.",
+        "algorithm": "Travelling Salesman Problem (Dynamic Programming)",
+        "available": false,
+        "practicalPdf": "",
+        "codetantraPdf": ""
+    },
+
+    {
+        "id": "practical-07",
+        "number": "Practical 7",
+        "title": "DNA Sequence Comparison",
+        "problemStatement": "Compare DNA sequences for evolutionary traits.",
+        "algorithm": "Longest Common Subsequence",
+        "available": false,
+        "practicalPdf": "",
+        "codetantraPdf": ""
+    },
+
+    {
+        "id": "practical-08",
+        "number": "Practical 8",
+        "title": "Currency Exchange Arbitrage Detection",
+        "problemStatement": "Detect arbitrage opportunities in currency exchange.",
+        "algorithm": "Bellman-Ford Algorithm",
+        "available": false,
+        "practicalPdf": "",
+        "codetantraPdf": ""
+    },
+
+    {
+        "id": "practical-09",
+        "number": "Practical 9",
+        "title": "Antenna Placement",
+        "problemStatement": "Place antennas without interference on a grid.",
+        "algorithm": "N-Queens Problem",
+        "available": false,
+        "practicalPdf": "",
+        "codetantraPdf": ""
+    },
+
+    {
+        "id": "practical-10",
+        "number": "Practical 10",
+        "title": "Social Media Post Reach",
+        "problemStatement": "Trace social media post reach.",
+        "algorithm": "Depth-First Search",
+        "available": false,
+        "practicalPdf": "",
+        "codetantraPdf": ""
+    },
+
+    {
+        "id": "post-lab",
+        "number": "Post-Lab",
+        "title": "Open-Ended Practical",
+        "problemStatement": "Open-ended practical defined by the student.",
+        "algorithm": "Student-defined",
+        "available": false,
+        "practicalPdf": "",
+        "codetantraPdf": ""
+    }
+]
