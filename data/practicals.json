@@ -5,9 +5,9 @@
         "title": "Prime Number Generation Complexity",
         "problemStatement": "Analyze time & space complexity of prime number generation up to n.",
         "algorithm": "Complexity Analysis",
-        "available": false,
-        "practicalPdf": "",
-        "codetantraPdf": ""
+        "available": true,
+        "practicalPdf": "practicals/practical_00/Practical_00_Theory.pdf",
+        "codetantraPdf": "practicals/practical_00/practical_00_codetantra.pdf"
     },
 
     {
