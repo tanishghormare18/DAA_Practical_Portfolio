@@ -16,9 +16,9 @@
         "title": "Massive Server Log Sorting",
         "problemStatement": "Sort massive server logs chronologically using timestamps.",
         "algorithm": "Quick Sort",
-        "available": false,
-        "practicalPdf": "",
-        "codetantraPdf": ""
+        "available": true,
+        "practicalPdf": "practicals/practical_01/practical_01_theory.pdf",
+        "codetantraPdf": "practicals/practical_01/practical_01_codetantra.pdf"
     },
 
     {
