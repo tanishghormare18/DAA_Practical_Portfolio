@@ -27,9 +27,9 @@
         "title": "Manuscript Archive ID Search",
         "problemStatement": "Locate the first occurrence of a manuscript Archive ID efficiently.",
         "algorithm": "Binary Search",
-        "available": false,
-        "practicalPdf": "",
-        "codetantraPdf": ""
+        "available": true,
+        "practicalPdf": "practicals/practical_02/practical_02_theory.pdf",
+        "codetantraPdf": "practicals/practical_02/practical_02_codetantra.pdf"
     },
 
     {
