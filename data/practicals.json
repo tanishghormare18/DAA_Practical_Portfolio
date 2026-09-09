@@ -38,9 +38,9 @@
         "title": "Spacecraft Trajectory Optimization",
         "problemStatement": "Optimize spacecraft trajectory with matrix multiplication.",
         "algorithm": "Strassen’s Algorithm",
-        "available": false,
-        "practicalPdf": "",
-        "codetantraPdf": ""
+        "available": true,
+        "practicalPdf": "practicals/practical_03/practical_03_theory.pdf",
+        "codetantraPdf": "practicals/practical_03/practical_03_codetantra.pdf"
     },
 
     {
