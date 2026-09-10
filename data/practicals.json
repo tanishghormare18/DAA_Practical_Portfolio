@@ -60,9 +60,9 @@
         "title": "Ambulance Route Optimization",
         "problemStatement": "Develop real-time ambulance routing in Mumbai.",
         "algorithm": "Dijkstra’s Algorithm",
-        "available": false,
-        "practicalPdf": "",
-        "codetantraPdf": ""
+        "available": true,
+        "practicalPdf": "practicals/practical_05/practical_05_theory.pdf",
+        "codetantraPdf": "practicals/practical_05/practical_05_codetantra.pdf"
     },
 
     {
