@@ -49,9 +49,9 @@
         "title": "Fiber Internet Network Installation",
         "problemStatement": "Minimize fiber internet network installation cost.",
         "algorithm": "Kruskal’s MST",
-        "available": false,
-        "practicalPdf": "",
-        "codetantraPdf": ""
+        "available": true,
+        "practicalPdf": "practicals/practical_04/practical_04_theory.pdf",
+        "codetantraPdf": "practicals/practical_04/practical_04_codetantra.pdf"
     },
 
     {
