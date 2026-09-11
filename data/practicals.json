@@ -82,9 +82,9 @@
         "title": "DNA Sequence Comparison",
         "problemStatement": "Compare DNA sequences for evolutionary traits.",
         "algorithm": "Longest Common Subsequence",
-        "available": false,
-        "practicalPdf": "",
-        "codetantraPdf": ""
+        "available": true,
+        "practicalPdf": "practicals/practical_07/practical_07_theory.pdf",
+        "codetantraPdf": "practicals/practical_07/practical_07_codetantra.pdf"
     },
 
     {
