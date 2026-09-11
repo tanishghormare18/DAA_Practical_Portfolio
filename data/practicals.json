@@ -71,9 +71,9 @@
         "title": "Drone Delivery Route Optimization",
         "problemStatement": "Optimize drone delivery routes.",
         "algorithm": "Travelling Salesman Problem (Dynamic Programming)",
-        "available": false,
-        "practicalPdf": "",
-        "codetantraPdf": ""
+        "available": true,
+        "practicalPdf": "practicals/practical_06/practical_06_theory.pdf",
+        "codetantraPdf": "practicals/practical_06/practical_06_codetantra.pdf"
     },
 
     {
