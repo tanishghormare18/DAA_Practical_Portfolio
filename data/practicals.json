@@ -93,9 +93,9 @@
         "title": "Currency Exchange Arbitrage Detection",
         "problemStatement": "Detect arbitrage opportunities in currency exchange.",
         "algorithm": "Bellman-Ford Algorithm",
-        "available": false,
-        "practicalPdf": "",
-        "codetantraPdf": ""
+        "available": true,
+        "practicalPdf": "practicals/practical_08/practical_08_theory.pdf",
+        "codetantraPdf": "practicals/practical_08/practical_08_codetantra.pdf"
     },
 
     {
