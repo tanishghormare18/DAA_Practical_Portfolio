@@ -115,9 +115,9 @@
         "title": "Social Media Post Reach",
         "problemStatement": "Trace social media post reach.",
         "algorithm": "Depth-First Search",
-        "available": false,
-        "practicalPdf": "",
-        "codetantraPdf": ""
+        "available": true,
+        "practicalPdf": "practicals/practical_10/practical_10_codetantra.pdf",
+        "codetantraPdf": "practicals/practical_10/practical_10_codetantra.pdf"
     },
 
     {
