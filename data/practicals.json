@@ -104,9 +104,9 @@
         "title": "Antenna Placement",
         "problemStatement": "Place antennas without interference on a grid.",
         "algorithm": "N-Queens Problem",
-        "available": false,
-        "practicalPdf": "",
-        "codetantraPdf": ""
+        "available": true,
+        "practicalPdf": "practicals/practical_09/practical_09_theory.pdf",
+        "codetantraPdf": "practicals/practical_09/practical_09_codetantra.pdf"
     },
 
     {
