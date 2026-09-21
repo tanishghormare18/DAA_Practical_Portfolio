@@ -126,8 +126,8 @@
         "title": "Open-Ended Practical",
         "problemStatement": "Open-ended practical defined by the student.",
         "algorithm": "Student-defined",
-        "available": false,
-        "practicalPdf": "",
-        "codetantraPdf": ""
+        "available": true,
+        "practicalPdf": "practicals/practical_11_open_ended/DAA_CD24056.pdf",
+        "codetantraPdf": "practicals/practical_11_open_ended/DAA_CD24056.pdf"
     }
 ]
